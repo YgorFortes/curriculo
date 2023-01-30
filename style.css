@@ -1,0 +1,203 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    width: 940px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ccc;
+    
+}
+
+.caixa {
+    position: absolute;
+    text-align: justify;
+
+}
+
+
+
+
+
+.caixa li  h1 {
+    font-size: 25px;
+    padding-bottom: 1em;
+    color: #000000;
+    text-transform: uppercase; 
+    margin: 20px 1em;
+    color: #5c5c5c;
+}
+
+.caixa li  h2 {
+    font-size: 15px;
+    color: #000000 ;
+    margin: 0px 2em;
+    color: #7c7c7c;
+}
+
+.caixa li h3 {
+    position: absolute;
+    left: 400px;
+    top: 0px;
+    text-transform: uppercase; 
+    margin: 20px 1em;
+}
+
+
+
+.informacao {
+    display: table-cell;
+    width: 420px;
+    
+    background: #181921;
+    color:#a49ca4;
+}
+
+.informacao img{
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.itens-contatos {
+    padding: 1em 0;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.itens-contatos a {
+    color: inherit;
+}
+
+.itens-contatos a:hover{
+    color: #2e8b57 ;
+}
+
+.itens-contatos p{
+    text-align: justify;
+}
+
+.lista-contato{
+    padding: 0 0 3em 0 ;
+}
+
+.informacao p i{
+    padding: 0 1em;
+}
+
+.itens-habilidade{
+    padding: 1em 0;
+    text-align: Left;
+}
+
+#range {
+    -webkit-appearance: none;
+    width: 98%;
+    border: solid 1px #82CFD0;
+    border-radius: 8px;
+    height: 1px;
+    outline: none;
+    transition: background 450ms ease-in;
+}
+
+.conteudo {
+    display: table-cell;
+    width: 940px;
+    text-align: center;
+    background: #c9c9c9;
+}
+
+.experiencia{
+    position: absolute;
+    margin-top: 100px;
+    
+} 
+
+.experiencia h3, .educacao h3{
+    text-transform: uppercase;
+    text-align: justify;
+    margin: 10px 40px;
+    color: #5c5c5c ;
+}
+
+.tabela-experiencia{
+   
+    display: grid;
+    width: 500px;
+    height: 90px;
+    margin: 5px 2em 0 2em;
+    padding: 1em;
+    background: #ffffff;
+    border-radius: 5px
+}
+
+.tabela-experiencia:hover, .tabela-educacao:hover {
+    transform:  scale(1.1);
+    transition: 1s all ;
+}
+
+.tabela-experiencia p:first-child, .tabela-educacao p:first-child{
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+.tabela-experiencia p:nth-child(2){
+    font-style: italic;
+    opacity: 0.80;
+}
+
+.tabela-experiencia p:last-child, .tabela-educacao p:last-child{
+    font-weight: bold;
+}
+
+
+.tabela-experiencia p, .tabela-educacao {
+    text-align: justify;
+}
+
+.educacao{
+     position: absolute;
+     margin: 600px 0;
+  
+
+}
+
+.tabela-educacao{
+    
+    display: grid;
+    width: 500px;
+    height: 90px;
+    margin: 5px 2em 0 2em;
+    padding: 1em;
+    background: #ffffff;
+    border-radius: 5px
+}
+
+@media screen and (max-width: 480px){
+    .caixa, .conteudo, .informacao{
+        
+        width: auto;
+        height: auto;
+  
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
