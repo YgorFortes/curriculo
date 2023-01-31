@@ -3,7 +3,7 @@ body{
     width: 940px;
     height: auto;
     margin: 0 auto;
-    background-color: #ccc;
+    background: linear-gradient(#ccc, #5c5c5c);
     
 }
 
